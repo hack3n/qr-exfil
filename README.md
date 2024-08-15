@@ -1,2 +1,58 @@
-# qr-exfil
-A web-based no-fix (?) tool to exfiltrate data from a restricted environment using QR codes.
+<a name="readme-top"></a>
+
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<h3>QR Exfil</h3>
+
+<p>
+  A web-based no-fix (?) tool to exfiltrate data from a restricted environment using QR codes.
+  <br />
+  <a href="#installation"><strong>Install »</strong></a>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#installation">Installation</a>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+
+
+### Installation
+
+```bash
+git clone https://github.com/hack3n/qr-exfil
+```
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+
+## Contact
+
+Project Link: [https://github.com/hack3n/qr-exfil](https://github.com/hack3n/qr-exfil)
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[issues-shield]: https://img.shields.io/github/issues/hack3n/qr-exfil.svg?style=for-the-badge
+[issues-url]: https://github.com/hack3n/qr-exfil/issues
+[license-shield]: https://img.shields.io/github/license/hack3n/qr-exfil.svg?style=for-the-badge
+[license-url]: https://github.com/hack3n/qr-exfil/blob/main/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/liam-o-brien-017aa6178/
