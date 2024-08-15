@@ -29,8 +29,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-
+Do you have RDP or VDI access, but no copy/paste, no outbound network, and need to exfiltrate some sensitive data? 
+This tool provides a method to reliably move files from restricted environments such as these to your own machine.
+It's web-based, circumventing client-side security controls such as AV/EDR or application control, and usually performant enough to transfer moderately large files (50MB) in a reasonable amount of time (a few hours).
 
 ### Installation
 
