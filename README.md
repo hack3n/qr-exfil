@@ -34,6 +34,13 @@ This tool provides a method to reliably move files from restricted environments 
 It's web-based, circumventing client-side security controls such as AV/EDR or application control, and usually performant enough to transfer moderately large files (50MB) in a reasonable amount of time (a few hours).
 
 ### Installation
+What you need:
+ - Some kind of desktop session on a remote machine
+
+If you need to transfer files from a restricted physical machine as well:
+ - A laptop to receive
+ - USB video capture card
+ - HDMI cable
 
 ```bash
 git clone https://github.com/hack3n/qr-exfil
