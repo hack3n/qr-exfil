@@ -1,0 +1,29 @@
+<html>
+<body>
+<button onclick="decodeAndSave()">Write</button>
+<script>
+var hexString = '<INSERT LOWERCASE HEX HERE>';
+
+function decodeAndSave() {
+    var binaryData = hexToBinary(hexString.toUpperCase());
+    var blob = new Blob([binaryData]);
+    var anchor = document.createElement('a');
+    anchor.style.display = 'none';
+    anchor.href = URL.createObjectURL(blob);
+    anchor.download = 'decoded_file.txt';
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+}
+
+function hexToBinary(hexString) {
+    var bytes = [];
+    for (var i = 0; i < hexString.length; i += 2) {
+        bytes.push(parseInt(hexString.substr(i, 2), 16));
+    }
+    var uint8Array = new Uint8Array(bytes);
+    return uint8Array.buffer;
+}
+</script>
+</body>
+</html>
