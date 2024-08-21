@@ -91,6 +91,6 @@ Project Link: [https://github.com/hack3n/qr-exfil](https://github.com/hack3n/qr-
 [issues-shield]: https://img.shields.io/github/issues/hack3n/qr-exfil.svg?style=for-the-badge
 [issues-url]: https://github.com/hack3n/qr-exfil/issues
 [license-shield]: https://img.shields.io/github/license/hack3n/qr-exfil.svg?style=for-the-badge
-[license-url]: https://github.com/hack3n/qr-exfil/blob/main/LICENSE.txt
+[license-url]: https://github.com/hack3n/qr-exfil/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/liam-o-brien-017aa6178/
