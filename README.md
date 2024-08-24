@@ -70,8 +70,8 @@ This repository includes a number of scripts and utilities that you may require:
  - util\dump-from-json.py - Reads the raw data from `raw.json` and outputs it to a file `output`.
  - util\find-missing-ids.py - Reads `raw.json` and checks that no chunks were missed by the reader.
  - util\make-ducky.py - Converts `qr-exfil.html` into a ruber ducky script payload to infil into your target environment.
- - util\make-ducky-hex-string.py - Sometimes VDI's can be sensitive with capital letters and special characters, so same as above, but as hex.
- - util\decode-hex.html - Intended to be manually typed out on the target environment to decode the hex inserted by the above script.
+ - `util\make-ducky-hex-string.py` - Sometimes VDI's can be sensitive with capital letters and special characters, so same as above, but as hex.
+ - `util\decode-hex.html` - Intended to be manually typed out on the target environment to decode the hex inserted by the above script.
 
 ## License
 
