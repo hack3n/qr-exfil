@@ -11,7 +11,7 @@ num_chunks = (len(hex_string_lower) // chunk_size) + 1
 for i in range(num_chunks):
     chunk = hex_string_lower[i * chunk_size: (i + 1) * chunk_size]
     filename = f"qr-exfil-hex{i + 1}.txt"
-    num_buffers = (len(chunk) // buffer_size) + 1
+    num_buffers = (len(chunk) // buffer_size)
     output = ""
     
     for j in range(num_buffers):
